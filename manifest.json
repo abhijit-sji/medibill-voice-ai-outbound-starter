@@ -1,0 +1,30 @@
+{
+  "slug": "voice-ai-outbound",
+  "displayName": "Voice AI — Outbound Calls",
+  "version": "1.0.0",
+  "description": "ElevenLabs Conversational AI for outbound patient calls. Supports appointment reminders, registration campaigns, and configurable AI agents with custom voices, knowledge bases, and conversation flows.",
+  "icon": "PhoneOutgoing",
+  "category": "Voice AI",
+  "fileCount": 22,
+  "tableCount": 4,
+  "componentCount": 8,
+  "hookCount": 2,
+  "edgeFunctionCount": 8,
+  "features": [
+    "ElevenLabs AI agents",
+    "Outbound call campaigns",
+    "Custom voice selection",
+    "Knowledge base integration",
+    "Conversation transcripts",
+    "Cost tracking per call"
+  ],
+  "techTags": [
+    "ElevenLabs Conversational AI",
+    "Twilio",
+    "Supabase Edge Functions",
+    "Supabase Realtime"
+  ],
+  "status": "stable",
+  "lastUpdated": "2026-03-13",
+  "manifestPath": "src/modules/voice-ai-outbound/manifest.json"
+}
